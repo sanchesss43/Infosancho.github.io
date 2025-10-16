@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4; /* светло-жёлтый фон */
+    color: #4a148c; /* фиолетовый текст */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f3e5f5; /* светло-фиолетовый */
+    padding: 40px 20px;
+    border-bottom: 5px solid #ffeb3b; /* ярко-жёлтая линия */
+}
+
+h1, h2 {
+    color: #4a148c; /* фиолетовый */
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #4a148c; /* фиолетовый футер */
+    color: #ffeb3b; /* жёлтый текст */
+    padding: 20px;
+}
+
+/* Фото ученика */
+.student-photo {
+    width: 200px;       
+    border: 3px solid #ffeb3b; /* жёлтая рамка */
+    border-radius: 10px;
+    margin: 15px 0;
+}
