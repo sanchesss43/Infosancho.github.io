@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* светлый фон */
+    color: #0b1d51; /* темно-синий текст */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-bottom: 5px solid #0b1d51;
+}
+
+h1 {
+    color: #0b1d51;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+section.badges {
+    padding: 40px 20px;
+    background-color: #e6ecf8;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.badge-container img {
+    width: 150px;
+    border: 3px solid #0b1d51;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.badge-container img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #0b1d51;
+    color: white;
+    padding: 20px;
+}
